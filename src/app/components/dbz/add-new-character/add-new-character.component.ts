@@ -1,4 +1,5 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input } from '@angular/core';
+//import { Output, EventEmitter } from '@angular/core';
 import { Character } from '../interfaces/dbz.interface';
 import { DbzService } from '../services/dbz.service';
 

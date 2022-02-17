@@ -1,0 +1,23 @@
+<h3>
+  Add New Character - {{ newCharacter.name }}
+</h3>
+<hr>
+<form (ngSubmit)="addNewCharacter( )">
+
+<input 
+  type="text" 
+  placeholder="Name"
+  name="name"
+  [(ngModel)]="newCharacter.name"
+  />
+
+<input 
+  type="number" 
+  placeholder="Power"
+  name="power"
+  [(ngModel)]="newCharacter.power"
+  />
+
+<button type="submit">Add</button>
+
+</form>
